@@ -22,9 +22,9 @@ const New = ({ data }) => {
         <div>
           <h4>Type: {data.type}</h4>
 
-          {data.stats.map(({ name, value }) => {
+          {data.stats.map(({ name, value }, i) => {
             return (
-              <h4 className='font-bold'>
+              <h4 key={i} className='font-bold'>
                 {name}: {value}
               </h4>
             );
