@@ -30,9 +30,9 @@ const New = ({ data }) => {
             );
           })}
           <Link href='/'>
-            <h4 className='bg-red-600 w-fit p-2 text-white rounded-lg my-4 cursor-pointer'>
+            <button className='bg-red-600 w-fit p-2 text-white rounded-lg my-4 cursor-pointer'>
               Back Home
-            </h4>
+            </button>
           </Link>
         </div>
       </div>
